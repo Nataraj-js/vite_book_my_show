@@ -1,0 +1,15 @@
+How to create Full Slice
+1) Created Entity Adapter
+2) Created Slice
+	2.1) Slice was named
+	2.2) Initial Data provided through adapter
+    2.3) Provice all CRUD options using reducers
+3) destructure action from slice.actions
+    3.1) by calling the action we can call the reducers function indirectly
+4) Write selector to read the entire data in the slice (Primary selector)
+5) Extract the array selector and object selector using Entity adapter (In-Built selector)
+6) Write the required derived selectors. (Derived Selector)
+
+How to add data in the slice
+1) Dispatch the required action using store.
+2) Provide Id, changes in the argument.
